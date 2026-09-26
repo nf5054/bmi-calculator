@@ -38,5 +38,3 @@ Deployed via Vercel, tracking the `main` branch of this repository.
 ![UI - results](ScreenShots/ui-results.png)
 ![UI - history](ScreenShots/ui-history.png)
 
-> Add images to a `ScreenShots/` folder at the repo root using these exact filenames for
-> the links above to resolve. More can be added the same way (name them, list them here).
