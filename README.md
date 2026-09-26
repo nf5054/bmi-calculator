@@ -3,20 +3,6 @@
 A single-page, client-side BMI (Body Mass Index) calculator that also estimates a daily
 calorie target and macronutrient split from age, sex, height, weight, and activity level.
 
-## Honest summary
-
-- This is **not** powered by a trained AI/ML model. The "recommendation engine" is
-  deterministic, rule-based math: the Mifflin-St Jeor equation for BMR, a standard
-  activity multiplier for TDEE, and fixed macro-split percentages per goal. No external
-  API calls are made.
-- Everything runs in the browser. There is no backend, no server, and no account system.
-- History and preferences (theme, last entered values) are stored only in the browser's
-  `localStorage`. Clearing site data clears them.
-- BMI thresholds used here are the standard adult WHO ranges and are less meaningful for
-  users under 18; the app shows a caution note in that case, but it is not a medical tool.
-- This has not been tested across every browser or screen size — it's a personal/demo
-  project, not a production health product.
-
 ## Features
 
 - Metric or imperial units, sex selection, age/height/weight inputs
